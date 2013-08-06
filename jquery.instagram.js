@@ -1,3 +1,4 @@
+/* Find the access token: http://www.pinceladasdaweb.com.br/instagram/access-token */
 (function ($){
   $.fn.instagram = function (options) {
     var that = this,
