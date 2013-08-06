@@ -1,4 +1,3 @@
-
 (function ($){
   $.fn.instagram = function (options) {
     var that = this,
@@ -49,7 +48,7 @@
       type: "GET",
       dataType: "jsonp",
       cache: false,
-      url: 'https://api.instagram.com/v1/users/self/media/liked?access_token=432324504.5b9e1e6.68a7b3abd5c9438f8afa65f107995f09',
+      url: 'https://api.instagram.com/v1/users/self/media/liked?access_token=XXXXXXXXXXX',
       success: function (res) {
         var length = typeof res.data != 'undefined' ? res.data.length : 0;
         var limit = settings.show != null && settings.show < length ? settings.show : length;
